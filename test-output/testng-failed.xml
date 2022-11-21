@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Bridgelabz.Download_PopUps">
+      <class name="com.Bridgelabz.LaunchFirefoxAndChromeTogether">
         <methods>
-          <include name="close_All_Child_Windows"/>
-          <include name="launchBrowser"/>
+          <include name="loginFFandCHROME"/>
         </methods>
-      </class> <!-- com.Bridgelabz.Download_PopUps -->
+      </class> <!-- com.Bridgelabz.LaunchFirefoxAndChromeTogether -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

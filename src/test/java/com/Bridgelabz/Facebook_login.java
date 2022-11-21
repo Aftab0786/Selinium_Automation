@@ -16,7 +16,7 @@ public class Facebook_login {
 		Thread.sleep(2000);
 		driver.findElement(By.name("email")).sendKeys("alam41976@gmail.com");
 		Thread.sleep(2000);
-		driver.findElement(By.id("pass")).sendKeys("Aftab@0786");
+		driver.findElement(By.id("pass")).sendKeys("sadam@1234");
 		Thread.sleep(2000);
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(2000);
